@@ -1,0 +1,110 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    height: 750px;
+    width: 100%;
+    background: linear-gradient(227deg, #3C134E, #403EED);
+}
+header{
+    width: 100%;
+    height: 142px;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    font-size: 40px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 300;
+}
+.text2{
+
+  color: rgb(243, 77, 48);
+  text-decoration: underline 2px;
+}
+section{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#textarea{
+    height: 270px;
+    width: 600px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    color: #fff;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-x: hidden; /* Hide horizontal scrolling */
+    white-space: pre-wrap; /* Preserve line breaks and wrap text */
+}
+
+#searchbox{
+    height: 100px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+#selectlang {
+    height: 40px;
+    width: 400px;
+    background: rgba(255, 255, 255, 0.2); /* Background color with transparency */
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding-left: 20px;
+    color: #fff; /* Text color */
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    appearance: none; /* Remove default appearance */
+}
+
+#selectlang option {
+    background-color: rgba(26, 25, 25, 0.5); /* Adjust the background color of options */
+    color: #fff; /* Adjust the text color of options */
+}
+#btn1{
+    height: 40px;
+    width: 150px;
+    border-radius: 30px;
+    background-color: rgb(247, 58, 58);
+    color: white;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+}
+#btn1:hover{
+    color: rgb(0, 0, 0);
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
